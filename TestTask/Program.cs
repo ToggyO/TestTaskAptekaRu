@@ -38,6 +38,9 @@ namespace TestTask
             PrintStatistic(singleLetterStats, "Статистика вхождения каждой буквы:");
             PrintStatistic(doubleLetterStats, "Статистика вхождения парных букв:");
 
+            inputStream1.Dispose();
+            inputStream2.Dispose();
+
             // TODO - Done : Необжодимо дождаться нажатия клавиши, прежде чем завершать выполнение программы.
             Console.WriteLine("Нажмите любую клавишу, чтобы завершить выполнение программы");
             Console.ReadKey();
